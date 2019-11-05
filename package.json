@@ -1,0 +1,25 @@
+{
+  "name": "componentsjs-loader",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/allforabit/componentsjs-loader.git",
+  "author": "allforabit <kevnolan@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "componentsjs": "3.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "loader-runner": "^3.0.0"
+  },
+  "dependencies": {
+    "memory-fs": "^0.5.0",
+    "webpack": "^4.41.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
